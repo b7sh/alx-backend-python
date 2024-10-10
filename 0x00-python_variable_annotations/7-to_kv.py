@@ -12,4 +12,4 @@ from typing import Union, Tuple
 
 def to_kv(k: str, v: Union[int, float]) -> Tuple[int, float]:
     'return a tuple'
-    return (k, v)
+    return (k, v * v)
