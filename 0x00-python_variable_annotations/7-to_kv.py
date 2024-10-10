@@ -10,6 +10,6 @@ and returns a tuple.
 from typing import Union, Tuple
 
 
-def to_kv(k: str, v: Union[int, float]) -> Tuple[int, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     'return a tuple'
     return (k, v * v)
