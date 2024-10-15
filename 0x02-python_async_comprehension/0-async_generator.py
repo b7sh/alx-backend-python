@@ -15,4 +15,5 @@ from asyncio import sleep
 async def async_generator() -> Generator[float, None, None]:
     'yield a random number between 0 and 10'
     for number in range(10):
+        await sleep(1)
         yield uniform(0, 10)
